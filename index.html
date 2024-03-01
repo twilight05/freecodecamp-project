@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis qui
+      harum minima distinctio quod corporis consectetur iste et. Repellat,
+      vitae.
+    </p>
+    <form action="" id="survey-form">
+      <input id="name" type="text" placeholder="Name:" required />
+      <label for="Name" id="name-label">Name</label>
+      <input id="email" type="email" placeholder="Email:" required />
+      <label for="Email" id="email-label">Email</label>
+      <label for="Phone Number" id="number-label">Phone Number</label>
+
+      <input
+        type="number"
+        id="number"
+        name="quantity"
+        min="1"
+        max="11"
+        placeholder="Phone-Number:"
+      />
+      <label for="dropdown">Gender:</label>
+      <select id="dropdown" name="dropdown">
+        <option value="option1">Male</option>
+        <option value="option2">Female</option>
+        <!-- Add more options if needed -->
+      </select>
+      <label>Choose an option:</label>
+
+  <input type="radio" id="option1" name="options" value="option1">
+  <label for="option1">Option 1</label>
+
+  <input type="radio" id="option2" name="options" value="option2">
+  <label for="option2">Option 2</label>
+
+  <input type="checkbox" id="option1" name="options" value="option1">
+  <label for="option1">Option 1</label>
+
+  <input type="checkbox" id="option2" name="options" value="option2">
+  <label for="option2">Option 2</label>
+  <label for="comments">Additional Comments:</label>
+  <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+  <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>
